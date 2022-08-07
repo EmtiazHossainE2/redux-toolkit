@@ -1,10 +1,10 @@
+import Counter from "./components/counter/Counter";
 
 function App() {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="text-center my-20">
+      <h1 className="text-3xl font-bold">Hello Redux Toolkit</h1>
+      <Counter/>
     </div>
   );
 }
