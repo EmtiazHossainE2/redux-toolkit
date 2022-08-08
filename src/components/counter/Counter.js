@@ -6,7 +6,7 @@ const Counter = () => {
   const count = useSelector((state) => state.counter.count)
   const dispatch = useDispatch()
   return (
-    <div className='pt-5'>
+    <div className='pt-5 text-center'>
       <h2 className='py-3'>Counter app : {count}</h2>
       <div className='space-x-3'>
         <button onClick={() => {dispatch(increment())}} className='px-2 py-1 border rounded-lg'>Increment </button>
